@@ -11,11 +11,11 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-		.package(url: "https://github.com/Yahenskyi/DLLocalNotifications", .upToNextMinor(from: "0.08"))
+		.package(url: "https://github.com/Yahenskyi/DLLocalNotifications", .upToNextMinor(from: "1.0.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
-        .target(name: "DLLocalNotifications", dependencies: [], path: "Sources")
+        .target(name: "DLLocalNotifications", dependencies: [])
     ]
 )
